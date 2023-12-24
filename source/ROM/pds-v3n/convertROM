@@ -211,7 +211,7 @@ def cli(base, _input, _output, silent, ext, comment):
     # Validate options supplied
     #
 
-    validate_options(_input, _output, base)
+    validate_options(_input)
     
     #
     # Set parameters based on arguments supplied
