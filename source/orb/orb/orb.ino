@@ -21,11 +21,12 @@
 //
 //          Author:       Andrew Shapton
 //
-//          Credits:      Ben Zott for the ROM image binary
+//          Credits:      Ben Zotto for the ROM image binary
 //
 //          Revision:     0.1         Initial Release - no board fab
 //                        0.2         Reduced number of pins for chip select by constructing a 4:2 Binary Encoder
-
+//                        0.3         N/A
+//                        0.4         Released to go with 0.4 of the board
 
 
 // Program Size Information

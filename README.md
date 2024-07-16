@@ -44,4 +44,4 @@ eMail [Andrew Shapton](mailto:alshapton@gmail.com)
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-I have to give my heartfelt thanks to Ben Zott, who has been a sounding board for me throughout this project, answering my emails, and checking his Sphere-1 CPU/2 board to answer questions, and offering thoughts as to why things “were like they were” ! Without him, I would never have got as far as I have.
+I have to give my heartfelt thanks to Ben Zotto, who has been a sounding board for me throughout this project, answering my emails, and checking his Sphere-1 CPU/2 board to answer questions, and offering thoughts as to why things “were like they were” ! Without him, I would never have got as far as I have.
