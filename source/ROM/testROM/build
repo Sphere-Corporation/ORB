@@ -1,0 +1,3 @@
+
+<insert location of sbasm here>/sbasm testROM.asm
+./convertROM  -i TESTROM.BIN -b 0xFFD0 -o testROM -e h -c "TestROM for ORB Board. Original software (c) Ben Zotto 2024"

@@ -27,9 +27,10 @@
 //                        0.2         Reduced number of pins for chip select by constructing a 4:2 Binary Encoder
 //                        0.3         N/A
 //                        0.4         Released to go with 0.4 of the board
+//                        0.5         Added capability to select ROM image at compile time
 
 
-// Program Size Information
+// Program Size Information (with PDS-V3N)
 // Status       sketch    %         Global Vars   %
 // Baseline     7088      23%       298           14%
 // DEBUG 1      7088      23%       298           14%
@@ -46,8 +47,18 @@
 #define debugbegin()
 #endif 
 
-// Include PDS V3N ROM image
+// Define ROM selection settings - you MUST define one of these
+//#define PDSV3N  
+#define  TESTROM
+
+// Include correct ROM image
+#ifdef PDSV3N
 #include "pds-v3n.h"
+#endif
+
+#ifdef TESTROM
+#include "testROM.h"
+#endif
 
 // Include functions
 #include "functions.h"
